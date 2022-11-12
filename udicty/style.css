@@ -1,0 +1,175 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* start header */
+
+.logo{
+    width: 82px;
+    height: 81px;
+    margin-left: 100px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 155px;
+    margin-top: 45px;
+    transition: 0.5s;
+}
+
+li {
+   padding-left: 25px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(94, 64, 84);
+}
+
+
+.header ul li:hover {
+    color: blueviolet;
+}
+
+
+/* end header */
+
+/* start list right */
+.list_right{
+    width: 20%;
+    background-color: rgb(13, 16, 63);
+    color: white;
+    padding: 13px;
+    margin-left: 56em;
+    margin-top: -358px;
+    border-radius: 10px;
+    animation-name: mazen;
+    animation-duration: 5s;
+    transition: 0.7s;
+}
+
+.list_right .text_logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 194, 80);
+    margin-left: 5px;
+}
+
+
+p{
+    font-size: 15px;
+    color: rgb(196, 196, 196);
+    margin-left: 5px;
+}
+
+h3{
+    line-height: 8px;
+    margin-left: 5px;
+}
+
+/* end list right */
+
+/* start img2 */
+.img2 img{
+    width: 50%;
+     height: 351px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+/* end img */
+
+h4{
+    font-size: 40px;
+    width: 300px;
+    margin-left: 102px;
+    font-family: 'Inter', sans-serif;
+    margin-top: -40px;
+}
+
+.bady p{
+    color: black;
+    width: 250px;
+    margin-left: 500px;
+    margin-top: -180px;
+}
+
+
+button{
+    margin-left: 500px;
+    border: none;
+    padding: 15px;
+    background-color: rgb(255, 194, 80);
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+button:hover{
+    background-color: rgb(13, 16, 63);
+    color: white;
+}
+
+/* end fot img */
+
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.fot img{
+    width: 200px;
+    margin-left: 10px;
+}
+
+.fot{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.fot  div{
+    margin-left: 25px;
+}
+
+.bady{
+    margin-bottom: 90px;
+}
+
+h6{
+    font-size: 16px;
+}
+
+
+@keyframes mazen {
+    0%{
+       background-color: blueviolet;
+    }
+    100%{
+        background-color: rgb(13, 16, 63);
+    }
+}
+
+
+.list_right:hover{
+    transform: scale(1.1);
+}
+
+
+.logo:hover{
+    transform: scale(1.1);
+}
